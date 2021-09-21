@@ -2,12 +2,12 @@ public class ChainMatrixMultiplication {
 
     public static void main(String[] args) {
         ChainMatrixMultiplication ob = new ChainMatrixMultiplication();
-        int[] arr = {2,3,6,4,5};
+        int[] arr = {5,4,6,2,7};
 
         /*
         result is stored diagonal wise
         for e.g 4 matrices considered
-        
+
         1. (0,1),(1,2),(2,3),(3,4) --> single matrix considered
         2. (0,2),(1,3),(2,4) --> two matrices considered
         3. (0,3),(1,4) --> three matrices considered
